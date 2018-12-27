@@ -16,7 +16,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "ltd-beget/stringstream" : "~1.0.2"
+    "ltd-beget/stringstream": "~1.0.2"
   },
   "require-dev": {
     "theseer/phpdox": "0.8.*",
@@ -27,6 +27,11 @@
     "psr-0": {
       "LTDBeget\\sphinx": "src"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/b1rdex/stringstream"
+    }
+  ]
 }
-
